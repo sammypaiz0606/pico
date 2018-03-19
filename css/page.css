@@ -1,0 +1,130 @@
+* {
+	margin:0 auto;
+}
+body {
+	background-color:black;
+}
+
+div.container {
+	margin:0;
+	padding:0;
+}
+div.topBar {
+	width:100%;
+	height:80px;
+	background-color:black;
+	border-bottom:1px solid white;
+}
+div ul {
+	display:inline-block;
+	margin-top:20px;
+
+}
+div ul li {
+	display:inline-block;
+}
+div ul.left {
+	float:left;
+}
+div ul.left li {
+	color:lightgray;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Times;
+	padding:5px;
+}
+
+div ul.right {
+	float:right;
+	display:inline;
+	margin-right:70px;
+}
+div ul.right li {
+	margin:15px;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:helvetica;
+	color:lightgrey;
+}
+div ul.right li#home {
+	color:red
+}
+div.intro {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color:lightgrey;
+
+}
+h1 {
+	font-size:45px;
+	margin-top:70px;
+	margin-bottom:40px;
+
+}div.intro p {
+	font-size:33px;
+	line-height:50px;
+}
+
+span#pico {
+	font-weight:bold;
+}
+button.download {
+	background-color:orangered;
+	border-radius:15px;
+	border:none;
+	font-size:18px;
+	color:lightgray;
+	padding:15px;
+	text-align: center;
+	margin-top:30px;
+	margin-bottom:80px;
+}
+div.middle {
+	width:100%;
+	height:400px;
+	background-color:lightgrey;
+	text-align: center;
+}
+div.middle img {
+	width:50px;
+	height:50px;
+}
+div.middle ul {
+	display:inline-block;
+	text-align: center;
+	
+}
+div.middle ul li {
+	max-width:300px;
+	min-width:50px;
+	margin:10px;
+	padding:5px;
+}
+div.footer {
+	width:100%;
+	height:190px;
+	text-align: center;
+}
+div.footer h2 {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+div.footer p {
+	color:darkgray;
+	line-height:25px;
+}
+#fontColor {
+	color:lightgrey;
+}
+div.footer a {
+	color:orangered;
+}
+div.footer .icon {
+	width:25px;
+	height:25px;
+	margin-top:-5px;
+}
+
+	
+
